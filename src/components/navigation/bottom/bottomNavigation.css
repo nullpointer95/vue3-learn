@@ -1,0 +1,32 @@
+.bar-content {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navigation-btn {
+    flex: 1;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    user-select: none;
+    transition:background-color .2s
+}
+
+.navigation-btn:hover {
+    cursor:pointer;
+    background-color: #847373;
+}
+
+
+.navigation-btn-warn {
+    color: #e03232;
+}
+
+.navigation-btn-normal {
+    color: whitesmoke;
+}
+
